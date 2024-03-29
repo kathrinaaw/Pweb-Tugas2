@@ -75,7 +75,7 @@ Lalu membuat tabel dari html dan didesain menggunakan css:
         </table>
 Table dimulai dari membuka kurung table lalu diberi id customers dengan ukuran lebar 30%, adapun tr yaitu table row, th yaitu table header, dan td yaitu table data. karena menggunakan
 id maka didalam style css memanggilnya menggunakan # didepan nama yang diberikan. Jika ingin menggabungkan beberapa coloum menggunakan colspan sebaliknya jika ingin menggabungkan row
-menggunakan rowspan.
+menggunakan rowspan. img src digunakan untuk memasukan gambar dari internet.
 
 Lalu memanggil kata yang berada dalam tabel menggunakan JavaScript:
 <h4>Table Mahasiswa 1</h4>
