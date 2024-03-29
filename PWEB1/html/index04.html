@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabel</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <style>
+    th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px; /* rounded table */
+    border-style: dashed; /*styling border*/
+    padding: 15px;
+    border-spacing: 30px;
+    }
+    table{
+        border: 1px solid black;
+    }
+    th, td {
+    background-color: #96D4D4;
+    }
+  </style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<!--Membuat Tabel
+td untuk tabel data
+tr untuk tabel row
+th untuk tabel header
+untuk membuat style tabel menggunakan style pada head
+dengan memanggil tr,th atau td bahkan table -->
+<table style="width: 60%;">
+    <tr>
+      <th colspan="2">Company</th> <!--Menyatukan colom-->
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Alfreds Futterkiste</td> <!--Menyatukan Row-->
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas1</title>
+
+    <style>
+        h1{
+            text-align: center; 
+            color: blue;
+            background-color: beige;
+        }
+
+        table, th, td {
+        border: 1px solid black;
+        }
+
+        #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #75eb89;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+    </style>
+        <script>
+           
+        </script>
+    
+</head>
+<body>
+    <h1>Latihan Evaluasi P. WEB 1</h1>
+    
+        <h4>List Takjil:</h4>
+            <ol>
+                <li>
+                    <ul>Makanan
+                        <li>Risoles</li>
+                        <li>Lapis Legit</li>
+                        <li>Gorengan</li>
+                        
+                    </ul>
+                </li>
+                <li>Minuman
+                    <ul>
+                        <li>Es Teh</li>
+                        <li>Es Buah</li>
+                        <li>Es Kuwut</li>
+                        
+                    </ul>
+                </li>
+            </ol>
+
+        <h4>Table Mahasiswa 1</h4>
+            <table style="width:30%">
+        <tr>
+            <th>Firstname</th>
+            <th>NPM</th>
+        </tr>
+        <tr>
+            <td id="a">Ferina</td>
+            <td id="b">230302036</td>
+        </tr>
+        <tr>
+            <td>Kate</td>
+            <td>230102037</td>
+        </tr>
+        <tr>
+            <td>Shela</td>
+            <td>230303033</td>
+        </tr>
+        </table>
+
+<br>
+<script>
+    let a = document.getElementById("a").innerHTML;
+    let b = document.getElementById("b").innerHTML;
+    let hasil = hitung (a,b);
+    document.write("Nilai A adalah =" +a,"<br>");
+    document.write("Nilai B adalah =" +b,"<br>");
+
+    function hitung(a,b){
+        return a*b;
+    }
+    
+    function tampil(){
+        alert("Hasil A+B=" + hasil)
+    }
+</script>
+<button type="button" onclick="tampil()">Hitung</button>
+
+        <h4>Tabel Mahasiswa 2</h4>
+        <table id="customers"style="width:30%">
+            <tr>
+            <th colspan="2">Data Mahasiswa</th>
+            </tr>
+            <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            </tr>
+            <tr>
+            <td>Berglunds snabbköp</td>
+            <td>Christina Berglund</td>
+            </tr>
+            <tr>
+            <td>Berglunds snabbköp</td>
+            <td rowspan="3"><img src="https://www.ferinahospital.com/wp-content/uploads/2018/06/gedung-ferina1.jpg" width="180px" height="150px"></td>
+            </tr>
+            <tr>
+            <td>Berglunds snabbköp</td>
+            </tr>
+            <tr>
+            <td>Berglunds snabbköp</td>
+            </tr>
+        </table>
+</body>
+</html>
