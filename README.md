@@ -117,7 +117,13 @@ Lalu memanggil kata yang berada dalam tabel menggunakan JavaScript:
 <button type="button" onclick="tampil()">Hitung</button>
 
 Let a dan Let b digunakan untuk wadah menampung dari elemen id a dan elemen id b lalu let hasil yang akan dipanggil oleh function, document write digunakan untuk menuliskan nilai a itu
-ada apa saja, button digunakan untuk mengklik lalu akan muncul alert yang digunakan untuk memunculkan hasilnya
+ada apa saja, button digunakan untuk mengklik lalu akan muncul alert yang digunakan untuk memunculkan hasilnya.
+
+Adapun hasil dari code diatas adalah
+
+
+![Screenshot (133)](https://github.com/kathrinaaw/Pweb-Tugas2/assets/165354969/be2f29cf-f0d2-449b-ad46-8a98f92642ca)
+![Screenshot (132)](https://github.com/kathrinaaw/Pweb-Tugas2/assets/165354969/e37aee1e-4ad3-476b-a819-796327e97cb0)
 
 
   
