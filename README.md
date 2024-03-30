@@ -123,6 +123,9 @@ Adapun hasil dari code diatas adalah
 
 
 ![Screenshot (132)](https://github.com/kathrinaaw/Pweb-Tugas2/assets/165354969/e37aee1e-4ad3-476b-a819-796327e97cb0)
-![Screenshot (133)](https://github.com/kathrinaaw/Pweb-Tugas2/assets/165354969/be2f29cf-f0d2-449b-ad46-8a98f92642ca)
+![Screenshot (133)](https://github.com/kathrinaaw/Pweb-Tugas2/assets/165354969/be2f29cf-f0d2-449b-ad46-8a98f92642ca)![Screenshot (132)](https://github.com/kathrinaaw/Pweb-Tugas2/assets/165354969/cc929e0f-f7d1-4e27-a5a2-0e177382cf40)
+
+
+
 
   
